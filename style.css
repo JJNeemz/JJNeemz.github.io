@@ -1,12 +1,21 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
-	background: #ef32d9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #303030;
 }
 
 li {
 	padding: 10px 0;
+}
+
+img {
+	border-radius: 50%;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 .container h1 {
@@ -17,10 +26,6 @@ li {
 	text-align: center;
 }
 
-img {
-	border-radius: 50%;
-}
-
 .sectionTitle {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
@@ -28,21 +33,13 @@ img {
 }
 
 #header {
-	background: #ef32d9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 4em;
 	font-family: 'Monoton', cursive;
 	font-size: 4em;
-	color: white;
+	margin: 0 auto;
 }
 
 #workBackground {
-	background-color: #00529B;
-	background: #ef32d9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color:white;
 	padding-bottom: 1em;
 	padding-top: 1em;
 }
@@ -50,29 +47,18 @@ img {
 .workBullets {
 	padding-left: 10%;
 	padding-right: 10%;
-	list-style-image: url("SVGFiles/USAF_logo_small.svg");
+	list-style-image: url("SVGFiles/USAF_logo_small_blue.svg");
 	list-style-position: outside;
 	font-size: 1em;
 }
 
 #schoolBackground {
-	/*background-color: #CC0000;*/
-	background-color: white;
-	background: #ef32d9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: 5px 0;
 }
 
 #school {
 	z-index: 99;
 	margin-bottom: 20px;
-}
-
-#school .sectionTitle {
-	padding-bottom: 10px;
-	z-index: 99;
-	font-weight: bold;
 }
 
 #school .body span {
@@ -88,10 +74,6 @@ img {
 	z-index: 1;
 }
 
-#OSU h2 {
-	font-size: 1.5em;
-}
-
 #BU {
 	height: 400px;
 	background-image: url("SVGFiles/bu_transparent.svg");
@@ -101,10 +83,6 @@ img {
 	z-index: 1;
 }
 
-#BU h2 {
-	font-size: 1.5em;
-}
-
-#skills {
-	background-color: ;
+#skills h2 {
+	text-align: left;
 }
