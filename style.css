@@ -4,6 +4,7 @@ body {
 	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #303030;
+	font-size: 1.2em;
 }
 
 li {
@@ -14,8 +15,30 @@ img {
 	border-radius: 50%;
 }
 
+img:hover {
+	opacity: 0.75;
+	border: 2px solid #BF5F63;
+}
+
 h2 {
 	font-size: 1.5em;
+}
+
+.container {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+#header {
+	height: 3em;
+	font-family: 'Monoton', cursive;
+	font-size: 4em;
+	margin: 0 auto;
+}
+
+#sections {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .container h1 {
@@ -32,16 +55,13 @@ h2 {
 	font-size: 2em;
 }
 
-#header {
-	height: 4em;
-	font-family: 'Monoton', cursive;
-	font-size: 4em;
-	margin: 0 auto;
-}
 
 #workBackground {
 	padding-bottom: 1em;
-	padding-top: 1em;
+}
+
+#work .column ul {
+	margin-top: 1em;
 }
 
 .workBullets {
@@ -49,16 +69,6 @@ h2 {
 	padding-right: 10%;
 	list-style-image: url("SVGFiles/USAF_logo_small_blue.svg");
 	list-style-position: outside;
-	font-size: 1em;
-}
-
-#schoolBackground {
-	margin: 5px 0;
-}
-
-#school {
-	z-index: 99;
-	margin-bottom: 20px;
 }
 
 #school .body span {
@@ -84,5 +94,34 @@ h2 {
 }
 
 #skills h2 {
-	text-align: left;
+	margin-top: 0;
+	text-align: center;
+}
+
+div#hobbies {
+	margin-bottom: 0;
+}
+
+#skills .column {
+	margin-top: 1em;
+	border-radius: 5%;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#skills .column:nth-of-type(2n+1) {
+	background-color: #B86F71;
+}
+
+#skills .column:nth-of-type(2n) {
+	background-color: #B7BABD
+}
+
+#skills .column h2{
+	margin-top: 1em;
+	height: 80px;
+}
+
+#hobbies .column h2 {
+	margin-top: 1em;
 }
