@@ -49,20 +49,16 @@ h2 {
 }
 
 #header {
-	height: 3em;
 	font-family: 'Monoton', cursive;
 	font-size: 4em;
 	margin: 0 auto;
+	height: 25;
+	font-size: 10vw;
 }
 
 .bounceLetter {
 	display: inline-block;
 	position: relative;
-}
-
-.whiteSpace {
-	padding-right: 16px;
-	padding-left: 16px;
 }
 
 span.redText.bounceLetter {
@@ -106,6 +102,12 @@ span.redText.bounceLetter {
 
 #school .body span {
 	font-style: italic;
+}
+
+#school h3 {
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
 }
 
 #OSU {
