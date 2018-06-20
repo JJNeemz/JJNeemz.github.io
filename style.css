@@ -106,9 +106,14 @@ span.redText.bounceLetter {
 }
 
 #school h3 {
-	width: 75%;
-	margin-left: 12.5%;
-	margin-right: 12.5%;
+	width: 84%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+div.body p {
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #OSU {
@@ -120,7 +125,6 @@ span.redText.bounceLetter {
 }
 
 #BU {
-	height: 400px;
 	background-image: url("SVGFiles/bu_transparent.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
