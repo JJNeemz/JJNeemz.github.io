@@ -13,6 +13,11 @@ li {
 
 img {
 	border-radius: 50%;
+	box-shadow: 0 0 4px black;
+}
+
+a {
+	color: #bb0000;
 }
 
 /*Spin animation for section images*/
@@ -35,8 +40,8 @@ img {
 
 /*Create toggle class for selecting sections*/
 .transparent {
-	opacity: 0.75;
-	border: 2px solid #BF5F63;
+	opacity: 0.8;
+	border: 2px inset #bb0000;
 }
 
 h2 {
@@ -62,7 +67,7 @@ h2 {
 }
 
 span.redText.bounceLetter {
-	color: #C16165;
+	color: #bb0000;
 }
 
 #sections {
@@ -82,6 +87,7 @@ span.redText.bounceLetter {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
 	font-size: 2em;
+	text-shadow: 1px 1px 1px black;
 }
 
 
