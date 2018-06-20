@@ -90,11 +90,6 @@ span.redText.bounceLetter {
 	text-shadow: 1px 1px 1px black;
 }
 
-
-#workBackground {
-	padding-bottom: 1em;
-}
-
 #work .column ul {
 	margin-top: 1em;
 }
@@ -117,7 +112,6 @@ span.redText.bounceLetter {
 }
 
 #OSU {
-	height: 400px;
 	background-image: url("SVGFiles/osu_transparent.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
