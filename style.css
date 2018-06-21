@@ -60,7 +60,7 @@ h2 {
 }
 
 #header {
-	font-family: 'Monoton', cursive;
+	font-family: 'Monoton', "sans-serif";
 	font-size: 4em;
 	margin: 0 auto;
 	height: 25;
