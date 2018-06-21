@@ -1,3 +1,9 @@
+html {
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 	background: #8e9eab;  /* fallback for old browsers */
@@ -90,6 +96,10 @@ span.redText.bounceLetter {
 	text-shadow: 1px 1px 1px black;
 }
 
+#work .sectionTitle {
+	color: #004F98;
+}
+
 #work .column ul {
 	margin-top: 1em;
 }
@@ -101,8 +111,18 @@ span.redText.bounceLetter {
 	list-style-position: outside;
 }
 
-#school .body span {
+#school .sectionTitle {
+	color: #bb0000;
+}
+
+#school .schoolText {
+	background-color: rgba(255,255,255,0.65);
+	border-radius: 10%;
+}
+
+#school .body span, #school .body h3 {
 	font-style: italic;
+	font-weight: bold;
 }
 
 #school h3 {
@@ -132,13 +152,13 @@ div.body p {
 	z-index: 1;
 }
 
+#skills .sectionTitle {
+	color: #B86F71;
+}
+
 #skills h2 {
 	margin-top: 0;
 	text-align: center;
-}
-
-div#hobbies {
-	margin-bottom: 0;
 }
 
 #skills .column {
@@ -161,6 +181,28 @@ div#hobbies {
 	height: 80px;
 }
 
+div#hobbies {
+	margin-bottom: 0;
+}
+
+#hobbies .sectionTitle {
+	color: #666666;
+}
+
 #hobbies .column h2 {
 	margin-top: 1em;
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+
+#hobbies li {
+	text-align: center;
+}
+
+#hobbies .column {
+	margin-top: 1em;
+	border-radius: 5%;
+	margin-left: 4px;
+	margin-right: 4px;
+	border: 3px dashed #666666;
 }
